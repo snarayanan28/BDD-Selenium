@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="31.963119">
+<testcase classname="Application Login" name="Home page default login" time="0.111555">
+<system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login into application with "jin" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login" time="0.000806">
+<system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login in to application with user1 and password pass1.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login 2" time="0.000779">
+<system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login in to application with user2 and password pass2.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login 3" time="0.001601">
+<system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login in to application with user3 and password pass3.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login 4" time="0.00065">
+<system-out><![CDATA[Given User is on NetBanking landing page....................................passed
+When User login in to application with user4 and password pass4.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for Vegetables" name="Search for items and validate results" time="11.303636">
+<system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Cucumber Vegetable...................................passed
+Then "Cucumber" results are displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for Vegetables" name="Search for items and then move to checkout page" time="10.073791">
+<system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Brinjal Vegetable....................................passed
+And Added items to cart.....................................................passed
+And User proceeded to Checkout page for purchase............................passed
+Then verify selected Brinjal items are displayed in Check out page..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for Vegetables" name="Search for items and then move to checkout page 2" time="10.470301">
+<system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Beetroot Vegetable...................................passed
+And Added items to cart.....................................................passed
+And User proceeded to Checkout page for purchase............................passed
+Then verify selected Beetroot items are displayed in Check out page.........passed
+]]></system-out>
+</testcase>
+</testsuite>

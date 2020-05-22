@@ -1,0 +1,833 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 988116,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebvaldiation()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 49452,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterWebvaldiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106147410,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3597435,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User login into application with \"jin\" and password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jin",
+                  "offset": 34
+                },
+                {
+                  "val": "1234",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.user_login_into_application_with_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 488927,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 284118,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 203408,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebvaldiation()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 40122,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterWebvaldiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 78844,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173084,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User login in to application with user1 and password pass1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 34
+                },
+                {
+                  "val": "pass1",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.user_login_into_application_with_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 180548,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129696,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 79310,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebvaldiation()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 69980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterWebvaldiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 184747,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141359,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User login in to application with user2 and password pass2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 34
+                },
+                {
+                  "val": "pass2",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.user_login_into_application_with_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60182,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 243530,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 77911,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebvaldiation()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 180548,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterWebvaldiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 88642,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160954,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User login in to application with user3 and password pass3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user3",
+                  "offset": 34
+                },
+                {
+                  "val": "pass3",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.user_login_into_application_with_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222070,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 871017,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 176350,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebvaldiation()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 41055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterWebvaldiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 125498,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155356,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User login in to application with user4 and password pass4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user4",
+                  "offset": 34
+                },
+                {
+                  "val": "pass4",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.user_login_into_application_with_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62982,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88642,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@WebTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Search for items and validate results",
+        "description": "",
+        "id": "search-and-place-order-for-vegetables;search-for-items-and-validate-results",
+        "after": [
+          {
+            "result": {
+              "duration": 347559940,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftervaldiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7546520318,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Greencart Landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3373997421,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User searched for Cucumber Vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefinitions.user_searched_for_something_vegetable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35558664,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"Cucumber\" results are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 1
+                }
+              ],
+              "location": "MyStepDefinitions.something_results_are_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Search for items and then move to checkout page",
+        "description": "",
+        "id": "search-and-place-order-for-vegetables;search-for-items-and-then-move-to-checkout-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 306408015,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterRegValdiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5996748733,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on Greencart Landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3320828543,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User searched for Brinjal Vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefinitions.user_searched_for_something_vegetable(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200332451,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Added items to cart",
+            "match": {
+              "location": "MyStepDefinitions.added_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249344055,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User proceeded to Checkout page for purchase",
+            "match": {
+              "location": "MyStepDefinitions.user_proceeded_to_checkout_page_for_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128763,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify selected Brinjal items are displayed in Check out page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 16
+                }
+              ],
+              "location": "MyStepDefinitions.verify_selected_items_are_displayed_in_check_out_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Search for items and then move to checkout page",
+        "description": "",
+        "id": "search-and-place-order-for-vegetables;search-for-items-and-then-move-to-checkout-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 235296753,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterRegValdiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6237443737,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on Greencart Landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3540330362,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User searched for Beetroot Vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefinitions.user_searched_for_something_vegetable(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226677559,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Added items to cart",
+            "match": {
+              "location": "MyStepDefinitions.added_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227537845,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User proceeded to Checkout page for purchase",
+            "match": {
+              "location": "MyStepDefinitions.user_proceeded_to_checkout_page_for_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3014735,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify selected Beetroot items are displayed in Check out page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 16
+                }
+              ],
+              "location": "MyStepDefinitions.verify_selected_items_are_displayed_in_check_out_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search and place order for Vegetables",
+    "description": "",
+    "id": "search-and-place-order-for-vegetables",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]
